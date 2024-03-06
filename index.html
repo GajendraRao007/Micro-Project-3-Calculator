@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div id="display" class="display"></div>
+
+        <div class="allbuttons">
+            <div class="row-one">
+                <button onclick="numbtn(event)" class="r1btns">7</button>
+                <button onclick="numbtn(event)" class="r1btns">8</button> 
+                <button onclick="numbtn(event)" class="r1btns">9</button> 
+                <button onclick="clearLastInput()" id="delbtn" class="r1btns">DEL</button> 
+            </div>
+            <div class="row-two">
+                <button onclick="numbtn(event)" class="r2btns">4</button>
+                <button onclick="numbtn(event)" class="r2btns">5</button> 
+                <button onclick="numbtn(event)" class="r2btns">6</button> 
+                <button onclick="numbtn(event)" id="plusbtn" class="r2btns">+</button> 
+            </div>
+            <div class="row-three">
+                <button onclick="numbtn(event)" class="r3btns">1</button>
+                <button onclick="numbtn(event)" class="r3btns">2</button> 
+                <button onclick="numbtn(event)" class="r3btns">3</button> 
+                <button onclick="numbtn(event)" class="r3btns">-</button> 
+            </div>
+            <div class="row-four">
+                <button onclick="numbtn(event)" class="r4btns">.</button> 
+                <button onclick="numbtn(event)" class="r4btns">0</button>
+                <button onclick="numbtn(event)" class="r4btns">/</button> 
+                <button onclick="numbtn(event)" class="r4btns">x</button> 
+                
+            </div>
+
+            <div class="row-five">
+                <button onclick="allClear()" id="resetbtn" class="r5btns">RESET</button> 
+                <button onclick="calculate()" id="equaltobtn" class="r5btns">=</button>  
+            </div>
+            
+
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
